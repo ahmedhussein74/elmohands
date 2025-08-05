@@ -7,19 +7,16 @@ const phoneNumbers = ["+201107675277", "+201010783660"];
 const ContactUs = () => {
   return (
     <section
-      className="bg-gradient-to-br from-[#fffaf5] to-[#f7f7fa] py-16 px-[5%] lg:px-[10%] text-center"
       dir="rtl"
+      id="contact"
+      className="bg-gradient-to-br from-[#fffaf5] to-[#f7f7fa] py-16 px-[5%] lg:px-[10%] text-center"
     >
       <div className="max-w-3xl mx-auto space-y-8">
-        <h2
-          className="text-2xl lg:text-4xl font-bold text-[#ff7917]"
-        >
+        <h2 className="text-2xl lg:text-4xl font-bold text-[#ff7917]">
           تواصل معنا الآن
         </h2>
 
-        <p
-          className="text-lg lg:text-2xl text-gray-700"
-        >
+        <p className="text-lg lg:text-2xl text-gray-700">
           فريقنا جاهز يرد عليك في أي وقت — اتصل بينا مباشرة واحجز خدمتك بسهولة.
         </p>
 

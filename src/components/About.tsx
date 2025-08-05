@@ -15,8 +15,9 @@ const About = () => {
 
   return (
     <section
-      className="w-[90%] lg:w-4/5 mx-auto flex flex-col gap-12 items-center justify-center text-center py-16"
       dir="rtl"
+      id="about"
+      className="w-[90%] lg:w-4/5 mx-auto flex flex-col gap-12 items-center justify-center text-center py-16"
     >
       <Image
         width={150}

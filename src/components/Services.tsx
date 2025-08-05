@@ -26,8 +26,9 @@ const Services = () => {
 
   return (
     <section
-      className="bg-[#F7F7FA] px-[5%] lg:px-[10%] py-16 text-center"
       dir="rtl"
+      id="services"
+      className="bg-[#F7F7FA] px-[5%] lg:px-[10%] py-16 text-center"
     >
       <Image
         src="/services.png"
