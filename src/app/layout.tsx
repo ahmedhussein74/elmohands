@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import "./globals.css";
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "المهندس | شركة نقل أثاث",
@@ -37,6 +38,14 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <div className="flex flex-col gap-3 fixed bottom-5 right-5">
+          <a href="https://wa.me/+201107675277" className="z-50">
+            <Image src="/whatsapp.png" alt="image" width={50} height={50} />
+          </a>
+          <a href="tel:+201010783660" className="z-50">
+            <Image src="/phone-call.png" alt="image" width={50} height={50} />
+          </a>
+        </div>
         <Footer />
       </body>
     </html>

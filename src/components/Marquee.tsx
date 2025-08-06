@@ -34,29 +34,28 @@ const places = [
 ];
 
 export default function Marquee() {
+  const content = [...places, ...places]; // duplicate for smooth scroll
+
   return (
-    <div className="overflow-hidden whitespace-nowrap bg-[#ff7917] py-2 rtl absolute bottom-[10%]">
+    <div dir="rtl" className="overflow-hidden bg-gray-100 py-2 absolute bottom-[10%]">
       <div
-        className="inline-block animate-[scroll_40s_linear_infinite]"
-        style={{
-          animation: "scroll 40s linear infinite",
-        }}
+        className="flex gap-8 w-max animate-[scroll_40s_linear_infinite]"
+        style={{ animation: "scroll 40s linear infinite" }}
       >
-        {places.map((place, index) => (
-          <span key={index} className="mx-4 text-white text-lg">
+        {content.map((place, index) => (
+          <span key={index} className="text-gray-800 text-lg whitespace-nowrap">
             {place}
           </span>
         ))}
       </div>
 
-      {/* Inline keyframes */}
       <style jsx>{`
         @keyframes scroll {
           0% {
-            transform: translateX(100%);
+            transform: translateX(0);
           }
           100% {
-            transform: translateX(-100%);
+            transform: translateX(-50%);
           }
         }
       `}</style>
