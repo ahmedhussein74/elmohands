@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-const phoneNumbers = ["+201107675277", "+201010783660"];
+const phoneNumbers = ["01107675277", "01010783660"];
 
 const ContactUs = () => {
   return (
