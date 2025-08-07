@@ -42,7 +42,7 @@ const Mission = () => {
         </article>
       </div>
 
-      <div className="w-full flex justify-between items-center px-[5%] lg:px-[10%] mt-4">
+      <div className="w-full flex flex-wrap justify-between items-center px-[5%] lg:px-[10%] mt-4">
         <Image
           width={150}
           height={100}
@@ -50,6 +50,14 @@ const Mission = () => {
           data-aos="fade-left"
           src="/truck_right.png"
           className="w-1/3 lg:w-1/4"
+        />
+        <Image
+          width={350}
+          height={100}
+          src="/m1.jpg"
+          alt="من نحن"
+          className="mx-auto"
+          data-aos="zoom-in"
         />
         <Image
           width={150}
