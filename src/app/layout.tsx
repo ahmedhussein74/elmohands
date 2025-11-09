@@ -41,10 +41,10 @@ export default function RootLayout({
         {children}
 
         <div className="flex flex-col gap-3 fixed bottom-5 right-5">
-          <a href="https://wa.me/+201107675277" className="z-50">
+          <a href="https://wa.me/+201118288327" className="z-50">
             <Image src="/whatsapp.png" alt="WhatsApp" width={50} height={50} />
           </a>
-          <a href="tel:+201010783660" className="z-50">
+          <a href="tel:+201031076847" className="z-50">
             <Image src="/phone-call.png" alt="Phone Call" width={50} height={50} />
           </a>
         </div>
