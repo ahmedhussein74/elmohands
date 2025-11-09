@@ -25,7 +25,7 @@ const Nav = () => {
     <nav className="w-[90%] lg:w-4/5 mx-auto my-4" dir="rtl">
       <div className="bg-[#ff7917] backdrop-blur-md rounded-xl shadow-lg px-4 py-3 flex items-center justify-between">
         <h1 className="text-white text-lg lg:text-2xl font-semibold">
-          المهندس
+          كايرو
         </h1>
 
         {/* Desktop menu */}
