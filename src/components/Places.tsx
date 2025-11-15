@@ -87,7 +87,7 @@ const Places = () => {
         <p className="text-lg lg:text-xl pt-8 text-gray-700" data-aos="fade-up">
           يعني في أي مكان داخل <strong>القاهرة أو حواليها</strong>،{" "}
           <span className="text-[#ff7917] font-semibold">
-            كايرو لنقل الأثاث
+            المهندس لنقل الأثاث
           </span>{" "}
           هيوصل لك بأمان وسرعة واحتراف.
         </p>
